@@ -15,8 +15,11 @@ const Tags = () => {
         event.target.value = ""
     }
 
-    const handleClose = () => {
-        console.log("hey kiddo");
+    const handleCloseTag = (index) => {
+        // console.log("hey kiddo");
+        console.log('index:', index)
+        setTags(tags.filter((el, id) => id !== index))
+       
     }
 
   return (
@@ -26,7 +29,7 @@ const Tags = () => {
         tags.map((tag, index) => (
             <div className="tags" key={index}>
             <span className="input-text">{tag}</span>
-            <span className="close" onClick={handleClose}>
+            <span className="close" onClick={() => handleCloseTag(index)}>
             x
             </span>
         </div>
