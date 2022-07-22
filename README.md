@@ -8,6 +8,15 @@ In the project directory, you can run:
 
 ### `npm start`
 
+- Home page with empty input box
+- <img src="https://user-images.githubusercontent.com/93372584/180381025-c2a75f52-2fa1-4973-92c7-ed429bfb369f.png" style="width: 100%; max-width: 100%; height: auto" title="Click to enlarge picture" />
+
+- Added some tags
+- <img src="https://user-images.githubusercontent.com/93372584/180381274-07d58772-1eaa-4521-9cdf-195b9b4f82bb.png" style="width: 100%; max-width: 100%; height: auto" title="Click to enlarge picture" />
+
+- Deleted some random tags
+- <img src="https://user-images.githubusercontent.com/93372584/180381520-95edfcb8-2553-492f-ac87-8c40cafe37a9.png" style="width: 100%; max-width: 100%; height: auto" title="Click to enlarge picture" />
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
