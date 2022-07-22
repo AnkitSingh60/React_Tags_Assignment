@@ -1,10 +1,11 @@
 import './App.css';
+import Tags from './components/Tags';
 
 function App() {
   return (
-    <div className="App">
-      <h1>hey kiddo</h1>
-    </div>
+    <>
+    <Tags/>
+    </>
   );
 }
 
