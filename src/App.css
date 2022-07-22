@@ -29,4 +29,7 @@
 .label_p{
   width: 50%;
   margin: auto;
+  color:  rgb(154, 151, 151);
+  font-weight: 500;
+  font-size: 13px
 }

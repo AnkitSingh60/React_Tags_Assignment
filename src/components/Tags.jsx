@@ -18,7 +18,7 @@ const Tags = () => {
         </div>
 
         </div>
-        <p className="label_p">check</p>
+        <p className="label_p">Hit 'Enter' to add a topic</p>
     </>
   )
 }
