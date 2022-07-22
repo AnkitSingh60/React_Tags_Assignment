@@ -13,18 +13,20 @@ const Tags = () => {
         setTags([...tags, tagInput]);
 
         event.target.value = ""
+    }
 
-        
+    const handleClose = () => {
+        console.log("hey kiddo");
     }
 
   return (
     <>
     <div className="container">
        {
-        tags.map((tag) => (
-            <div className="tags">
+        tags.map((tag, index) => (
+            <div className="tags" key={index}>
             <span className="input-text">{tag}</span>
-            <span className="close">
+            <span className="close" onClick={handleClose}>
             x
             </span>
         </div>
